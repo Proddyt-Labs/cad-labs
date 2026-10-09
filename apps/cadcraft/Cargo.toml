@@ -11,6 +11,7 @@ default-run = "cadcraft"
 workspace = true
 
 [dependencies]
+labs-updater = { version = "0.1.0", path = "../../crates/labs-updater" }
 cadcraft-engine = { workspace = true }
 cadcraft-ui-egui = { workspace = true }
 cadcraft-io = { workspace = true }
